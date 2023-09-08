@@ -2,6 +2,7 @@
 def convert_100_to_celsius():
     celsius_100 = ((100 - 32) * (5/9))
     print(float(celsius_100))
+    print('float')
 convert_100_to_celsius()
     # Convert a temperature of 100 degrees fahrenheit to celsius
     # Save this to a variable called celsius_100, and use print() to print out the value
@@ -33,7 +34,7 @@ convert_34_2_to_celsius()
 
 def convert_5_to_fahrenheit():
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
-    print((5 *(9/5)) + 32)
+    print((5 * (9/5)) + 32)
 
 convert_5_to_fahrenheit()
 
