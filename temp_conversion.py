@@ -13,19 +13,19 @@ convert_100_to_celsius()
 
 def convert_0_to_celsius():
     celsius_0 = (0 - 32) * (5/9)
-    print(float(celsius_0))
+    print(celsius_0)
     # Convert a temperature of 0 degrees fahrenheit to celsius
     # Save this to a variable called celsius_0, and use print() to print out the value
 
 convert_0_to_celsius()
 
 def convert_34_2_to_celsius():
-    print(float((34.2 - 32) * (5/9)))
-convert_34_2_to_celsius()
+    print((34.2 - 32) * (5/9))
+
     # Convert a temperature of 34.2 degrees fahrenheit to celsius
     # Do this one all in one print statement without saving any variables
     
-#convert_34_2_to_celsius()
+convert_34_2_to_celsius()
 
 
 # Now, can you convert back?
@@ -33,7 +33,7 @@ convert_34_2_to_celsius()
 
 def convert_5_to_fahrenheit():
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
-    print(float((5 *(9/5)) + 32))
+    print((5 *(9/5)) + 32)
 
 convert_5_to_fahrenheit()
 
@@ -41,9 +41,9 @@ def hotter_temp():
     temp1 = float((85.1 - 32) * (5/9))
     temp2 = 30.2
     if temp1 > temp2:
-        print('85.1 degrees fahrenheit is hotter than 30.2 degrees celsius')
+        print('85.1 degrees fahrenheit')
     else:
-        print('30.2 degrees celsius is hotter than 85.1 degrees fahrenheit')
+        print('30.2 degrees celsius')
     
     # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
     # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
